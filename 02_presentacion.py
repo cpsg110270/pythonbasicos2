@@ -1,0 +1,6 @@
+print("Nombre: Claudia Sánchez")
+print("Ciudad: Masaya")
+print("Curso: Python Basico-Itenrmedio")
+print("Porque quiero aprender python: para desarrollar habilidades en programación con Python")
+print("para diseñar, construir y automatizar pipelines de datos (ETL/ELT),")
+print("integrando diferentes fuentes de información, aplicando técnicas de procesamiento y transformación de datos")
