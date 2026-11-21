@@ -1,0 +1,46 @@
+Ejercicio 6 – Registro de gastos personales (20 minutos)
+
+Taller práctico individual.
+
+Situación:
+
+Una persona desea registrar todos los gastos de un día. No sabe cuántos gastos tendrá, 
+por lo que necesita introducirlos hasta que decida finalizar.
+
+Crear:
+
+sesion_03_control_flujo/06_registro_gastos.py
+
+Requisitos
+
+Solicitar el monto de cada gasto.
+
+Si el usuario introduce 0, terminar el registro con break.
+
+Si introduce un monto negativo, mostrar un mensaje y omitirlo con continue.
+
+Acumular los gastos válidos.
+
+Contabilizar cuántos gastos fueron registrados.
+
+Mostrar el total y la cantidad de gastos.
+
+Ejemplo de ejecución:
+
+Ingrese un gasto (0 para finalizar): 150
+
+Ingrese un gasto (0 para finalizar): 75
+
+Ingrese un gasto (0 para finalizar): -20
+
+Monto inválido. Se omite.
+
+Ingrese un gasto (0 para finalizar): 200
+
+Ingrese un gasto (0 para finalizar): 0
+
+===== RESUMEN DE GASTOS =====
+
+Cantidad de gastos: 3
+
+Total gastado: C$ 425.00

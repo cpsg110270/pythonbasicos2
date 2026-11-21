@@ -1,0 +1,51 @@
+Proyecto integrador – Control de gastos de un paseo familiar
+
+Reto final de la clase
+Situación:
+
+Una familia está organizando un paseo y necesita controlar sus gastos para no superar
+ el presupuesto disponible.
+Vamos a construir un pequeño sistema en consola que permita consultar categorías de gastos,
+ registrar gastos y conocer cuánto dinero queda disponible.
+
+Requerimientos del programa
+
+El programa debe:
+
+Solicitar el presupuesto disponible.
+
+No permitir presupuestos iguales o inferiores a cero.
+
+Mostrar un menú de opciones.
+
+Permitir visualizar las categorías de gastos.
+
+Permitir registrar hasta tres gastos por operación.
+
+Omitir gastos negativos.
+
+Evitar registrar gastos que superen el presupuesto restante.
+
+Mostrar el total acumulado y la cantidad de gastos.
+
+Clasificar el consumo del presupuesto:
+
+90 % o más: presupuesto casi agotado.
+
+60 % o más: presupuesto moderadamente utilizado.
+
+Menos del 60 %: presupuesto bajo control.
+
+Permitir regresar al menú hasta seleccionar salir.
+
+Archivo:
+
+sesion_03_control_flujo/07_control_gastos_paseo.py
+
+categorias = [
+    "Transporte",
+    "Comida",
+    "Entradas"
+]
+
+inicializar:

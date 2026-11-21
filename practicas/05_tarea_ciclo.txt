@@ -1,0 +1,32 @@
+ituación:
+
+Un sistema necesita permitir que un usuario ingrese mediante un PIN.
+
+El programa debe:
+
+Tener un PIN de demostración establecido.
+
+Solicitar el PIN al usuario.
+
+Permitir un máximo de tres intentos.
+
+Si el PIN es correcto, mostrar «Acceso autorizado».
+
+Si los tres intentos son incorrectos, mostrar «Usuario bloqueado».
+
+Ejemplo esperado:
+
+Ingrese su PIN: 1111
+
+PIN incorrecto.
+Intentos restantes: 2
+
+
+Ingrese su PIN: 2222
+
+PIN incorrecto.
+Intentos restantes: 1
+
+Ingrese su PIN: 1234
+
+Acceso autorizado.

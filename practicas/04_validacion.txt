@@ -1,0 +1,33 @@
+Ejercicio 3 – Validación de retiros de un cajero (10 minutos)
+
+Práctica individual.
+
+Situación:
+
+Un cajero automático necesita validar si un cliente puede realizar un retiro.
+
+El programa debe solicitar:
+
+Saldo disponible.
+
+Monto que desea retirar.
+
+Reglas:
+
+Si el saldo es negativo, mostrar que existe un error en la información.
+
+Si el monto a retirar es igual o inferior a cero, rechazar la operación.
+
+Si el monto supera el saldo disponible, rechazar el retiro.
+
+Si cumple todas las condiciones, autorizar el retiro y mostrar el saldo restante.
+
+Ejemplo esperado:
+
+Saldo disponible: 1500
+Monto a retirar: 500
+
+===== CAJERO AUTOMÁTICO =====
+
+Retiro autorizado.
+Saldo restante: C$ 1000.00
